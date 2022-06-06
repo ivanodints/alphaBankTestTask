@@ -7,5 +7,21 @@
 
 Так же в файле httpRequest.http (лежит в корне проекта) через intellij idea можно запустить get запросы.
 
-Все api keys и url адресса сторонних api расположены в application.properties. Если порт 8005 занят в application.properties
-можно изменить номер порта
+Все api keys и url адресса сторонних api расположены в application.properties.
+
+### DOCKER ###
+
+Для запуска используем команду
+
+docker build --tag=alphabankapp:latest .
+
+После сборки билда запускаем команду
+
+docker run -p 7777:8005 alphabankapp
+
+Теперь в брауезере указываем страницу 
+http://localhost:7777/alphaApp/api/v1/rate/{Currency}
+или
+http://localhost:7777/alphaApp/api/v1/rate/{Currency}.json
+Где вместо {Currency} указываем 3х значный код валюты (в любом регистре)
+
