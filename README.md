@@ -7,4 +7,5 @@
 
 Так же в файле httpRequest.http (лежит в корне проекта) через intellij idea можно запустить get запросы.
 
-Все api keys и url адресса сторонних api расположены в application.properties
+Все api keys и url адресса сторонних api расположены в application.properties. Если порт 8005 занят в application.properties
+можно изменить номер порта
