@@ -32,15 +32,13 @@ public class TestGiphy {
 
     private String rich;
     private String broke;
-
     private String key;
-    private String currency;
 
     @BeforeEach
     public void init() throws IOException {
 
         Properties properties = new Properties();
-        FileInputStream in = new FileInputStream("\\alphabanktesttask\\src\\main\\resources\\application.properties");
+        FileInputStream in = new FileInputStream("testapplication.properties");
         properties.load(in);
         key = properties.getProperty("giphy.api.key");
         rich = properties.getProperty("giphy.tag.rich");

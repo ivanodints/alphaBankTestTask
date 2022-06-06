@@ -35,7 +35,7 @@ public class TestMoneyRate {
     public void init() throws IOException {
 
         Properties properties = new Properties();
-        FileInputStream in = new FileInputStream("\\alphabanktesttask\\src\\main\\resources\\application.properties");
+        FileInputStream in = new FileInputStream("testapplication.properties");
         properties.load(in);
         appId = properties.getProperty("openexchange.key");
 

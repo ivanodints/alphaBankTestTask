@@ -5,10 +5,10 @@ Content-Type: application/json
 GET http://localhost:8005/alphaApp/api/v1/rate/rub.json
 
 ###
-GET http://localhost:8005/alphaApp/api/v1/rate/azh
+GET http://localhost:8005/alphaApp/api/v1/rate/azn
 Content-Type: application/json
 ###
-GET http://localhost:8005/alphaApp/api/v1/rate/azh.json
+GET http://localhost:8005/alphaApp/api/v1/rate/azn.json
 
 ###
 GET http://localhost:8005/alphaApp/api/v1/rate/gbp
@@ -16,9 +16,8 @@ Content-Type: application/json
 ###
 GET http://localhost:8005/alphaApp/api/v1/rate/gbp.json
 
-
 ###
-GET http://localhost:8008/testApp/api/v1/rate/jpy
+GET http://localhost:8005/alphaApp/api/v1/rate/jpy
 Content-Type: application/json
 ###
-GET http://localhost:8008/testApp/api/v1/rate/jpy.json
+GET http://localhost:8005/alphaApp/api/v1/rate/jpy.json
